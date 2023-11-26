@@ -1,5 +1,5 @@
-import { Box, Heading, Text, VStack, Image } from "@chakra-ui/react"
-// import Image from "next/image"
+import { Box, Heading, Text, VStack } from "@chakra-ui/react"
+import Image from "next/image"
 import ActionCard from "../../components/ActionCard"
 import ProjectsList from "../../components/ProjectsList"
 
@@ -21,12 +21,16 @@ export default function Projects() {
                     w="100vw"
                     h="100%"
                     pos="absolute"
-                    overflow="hidden"
                 >
                     <Image
                         alt="Blue texture image"
                         src="https://semaphore.cedoor.dev/blue-texture.jpg"
-                        objectFit="cover"
+                        quality="100"
+                        sizes="100vw"
+                        fill
+                        style={{
+                            objectFit: "cover"
+                        }}
                     />
                 </Box>
 
