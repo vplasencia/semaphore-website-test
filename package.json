@@ -20,6 +20,7 @@
         "react-code-blocks": "^0.1.4",
         "react-dom": "^18"
     },
+    "packageManager": "yarn@3.2.1",
     "devDependencies": {
         "@types/node": "^20",
         "@types/react": "^18",
